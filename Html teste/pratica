@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Animes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            background-color: #444;
+            padding: 0.5em;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 1em;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        ol {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Top 10 Animes</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Top 10 Animes</a>
+    </nav>
+    <main>
+        <ol>
+            <li>Naruto</li>
+            <li>One Piece</li>
+            <li>Attack on Titan</li>
+            <li>My Hero Academia</li>
+            <li>Death Note</li>
+            <li>Fullmetal Alchemist: Brotherhood</li>
+            <li>Demon Slayer</li>
+            <li>Dragon Ball Z</li>
+            <li>One Punch Man</li>
+            <li>Steins;Gate</li>
+        </ol>
+    </main>
+</body>
+</html>
